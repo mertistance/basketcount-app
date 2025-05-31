@@ -1,0 +1,69 @@
+@font-face {
+    src: url(/CursedTimerUlil-Aznm.ttf);
+    font-family: "Cursed Timer";
+}
+
+body {
+    margin: 0;
+    
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: auto;
+    background-color: #1B244A;
+}
+
+button {
+    height: 45px;
+    width: 45px;
+    border: 2px #9AABD8 solid;
+    border-radius: 5px;
+    font-family: "Cursed Timer";
+    font-size: 18px;
+    font-weight: 400;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    height: 36px;
+    width: 149px;
+    line-height: 35.89px;
+}
+
+h1 {
+    font-family: "Cursed Timer";
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    line-height: 126px;
+}
+
+.reset-container {
+    width: 575px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#reset-scores {
+    width: 100%;
+    transition: background-color 0.75s 200ms;
+}
+
+#reset-scores:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
